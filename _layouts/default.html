@@ -2,13 +2,19 @@
 <html lang="ru">
 <head>
     {% include head.html %}
+    <!-- Явное подключение CSS с версией -->
+    {% capture version %}{{ site.time | date: '%Y%m%d%H%M' }}{% endcapture %}
+    <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}?v={{ version }}">
 </head>
 <body>
+    {% include header.html %}
     
     <main class="main-content">
         {{ content }}
     </main>
     
     {% include footer.html %}
+    <!-- Явное подключение JS с версией -->
+    <script src="{{ '/assets/js/main.js' | relative_url }}?v={{ version }}"></script>
 </body>
 </html>

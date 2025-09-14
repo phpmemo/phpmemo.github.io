@@ -2,8 +2,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   
-  <title>PHP Шпаргалки</title>
-  <meta name="description" content="Интерактивная коллекция шпаргалок по PHP в виде переворачивающихся карточек для эффективного изучения и повторения материала.">
+  <!-- Title from page front matter -->
+  <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | default: "PHP Шпаргалки" | escape }}{% endif %}</title>
+  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
   
   <!-- Подсветка синтаксиса (Highlight.js) -->
     <link rel="stylesheet" 
