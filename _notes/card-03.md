@@ -17,28 +17,28 @@ short_answer: |
   * `@throws` - исключение, которые может выбрасывать метод.
 ---
 
-## Основное атрибуты в DocBlock:**
+## Основное атрибуты в DocBlock:
 
 **@param** `тип $param описание`
 Описание параметра функции.
-`@param string $username Имя пользователя`
+```php @param string $username Имя пользователя```
 
 **@return** `тип описание`
 Описание возвращаемого значения.
-`@return bool true в случае успеха`
+```php @return bool true в случае успеха```
 
 **@throws** `Исключение описание`
 Какие исключения может выбросить метод.
-`@throws InvalidArgumentException Если имя пустое`
+```php @throws InvalidArgumentException Если имя пустое```
 
 **@var** `тип описание`
 Тип свойства класса или переменной.
-`@var string[] Список имён`
+```php @var string[] Список имён```
 
 **@deprecated** `версия описание`
 Устаревший метод/класс. Чем заменить.
-`@deprecated 2.0 Use newMethod()`
+```php @deprecated 2.0 Use newMethod()```
 
 **@see** `ссылка`
 Ссылка на связанный метод/класс.
-`@see User::getName()`
+```php @see User::getName()```
