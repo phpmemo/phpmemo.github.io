@@ -1,0 +1,6 @@
+- name: Главная
+  link: /
+- name: Все записи
+  link: /notes/
+- name: О проекте
+  link: /about.html

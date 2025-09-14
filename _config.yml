@@ -1,0 +1,25 @@
+title: "PHPMemo"
+description: "Интерактивная коллекция шпаргалок по PHP в виде переворачивающихся карточек для эффективного изучения и повторения материала."
+baseurl: "/" 
+url: "https://phpmemo.github.io"
+
+# Настройки для Jekyll
+theme: minima
+# Настройка подсветки кода
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight' # Класс для обертки кода
+
+# Объявляем кастомные коллекции
+collections:
+  notes:
+    output: true
+    permalink: /notes/:path/
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  
+ 
