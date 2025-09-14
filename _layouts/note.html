@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<div class="single-note-page">
+    <div class="container">
+        <div class="back-button">
+            <a href="{{ '/notes/' | relative_url }}" class="btn btn-secondary">
+                ← Назад ко всем карточкам
+            </a>
+        </div>
+        
+        <!-- Используем тот же include, но для текущей страницы -->
+        {% include note-card.html note=page %}
+        
+        <!-- Дополнительный контент для отдельной страницы -->
+        <div class="full-content">
+            <h3>Полный ответ:</h3>
+            {{ content | markdownify }}
+        </div>
+    </div>
+</div>

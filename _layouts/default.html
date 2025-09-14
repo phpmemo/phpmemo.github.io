@@ -5,6 +5,7 @@
     <!-- Явное подключение CSS с версией -->
     {% capture version %}{{ site.time | date: '%Y%m%d%H%M' }}{% endcapture %}
     <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}?v={{ version }}">
+    <link rel="stylesheet" href="{{ '/assets/css/notes.css' | relative_url }}?v={{ version }}">
 </head>
 <body>
     {% include header.html %}
