@@ -21,24 +21,36 @@ short_answer: |
 
 **@param** `тип $param описание`
 Описание параметра функции.
-```php @param string $username Имя пользователя```
+```php 
+@param string $username Имя пользователя
+```
 
 **@return** `тип описание`
 Описание возвращаемого значения.
-```php @return bool true в случае успеха```
+```php 
+@return bool true в случае успеха
+```
 
 **@throws** `Исключение описание`
 Какие исключения может выбросить метод.
-```php @throws InvalidArgumentException Если имя пустое```
+```php 
+@throws InvalidArgumentException Если имя пустое
+```
 
 **@var** `тип описание`
 Тип свойства класса или переменной.
-```php @var string[] Список имён```
+```php 
+@var string[] Список имён
+```
 
 **@deprecated** `версия описание`
 Устаревший метод/класс. Чем заменить.
-```php @deprecated 2.0 Use newMethod()```
+```php 
+@deprecated 2.0 Use newMethod()
+```
 
 **@see** `ссылка`
 Ссылка на связанный метод/класс.
-```php @see User::getName()```
+```php 
+@see User::getName()
+```
