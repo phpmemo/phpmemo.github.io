@@ -1,7 +1,7 @@
 ---
 layout: note
 title: "Функция define()"
-card_id: 006
+card_id: 6
 date: 2025-09-16
 card_type: theory # theory, technique, practice
 categories: ["PHP Basics"]

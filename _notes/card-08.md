@@ -1,7 +1,7 @@
 ---
 layout: note
 title: "Запятая в PHP как разделитель аргументов и элементов"
-card_id: 008
+card_id: 8
 date: 2025-09-16
 card_type: theory # theory, technique, practice
 categories: ["PHP Basics"]

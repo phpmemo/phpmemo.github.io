@@ -1,7 +1,7 @@
 ---
 layout: note
 title: "Основное атрибуты в DocBlock"
-card_id: 003
+card_id: 3
 date: 2025-09-14
 card_type: theory # theory, technique, practice
 categories: ["PHP Basics"]

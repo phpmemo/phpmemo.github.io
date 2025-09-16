@@ -1,7 +1,7 @@
 ---
 layout: note
 title: "Однострочный комментарий // в PHP"
-card_id: 004
+card_id: 4
 date: 2025-09-14
 card_type: theory # theory, technique, practice
 categories: ["PHP Basics"]

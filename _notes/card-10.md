@@ -1,7 +1,7 @@
 ---
 layout: note
 title: "Знак равенства (=) в PHP — это оператор присваивания"
-card_id: 010
+card_id: 10
 date: 2025-09-16
 card_type: theory # theory, technique, practice
 categories: ["PHP Basics"]

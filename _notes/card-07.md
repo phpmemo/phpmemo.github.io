@@ -1,7 +1,7 @@
 ---
 layout: note
 title: "Разделитель инструкций в PHP - ;"
-card_id: 007
+card_id: 7
 date: 2025-09-16
 card_type: theory # theory, technique, practice
 categories: ["PHP Basics"]

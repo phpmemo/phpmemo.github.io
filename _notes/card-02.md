@@ -1,7 +1,7 @@
 ---
 layout: note # Создадим отдельный layout для карточек
 title: "Канонические теги PHP для обрамления кода"
-card_id: 002 # Уникальный номер карточки
+card_id: 2 # Уникальный номер карточки
 date: 2025-09-13
 card_type: theory # theory, technique, practice
 categories: ["PHP Basics"]

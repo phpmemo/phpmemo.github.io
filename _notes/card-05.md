@@ -1,7 +1,7 @@
 ---
 layout: note
 title: "Функция microtime()"
-card_id: 005
+card_id: 5
 date: 2025-09-14
 card_type: theory # theory, technique, practice
 categories: ["PHP Basics"]

@@ -1,7 +1,7 @@
 ---
 layout: note
 title: "$ — объявление и использование переменных в PHP"
-card_id: 009
+card_id: 9
 date: 2025-09-16
 card_type: theory # theory, technique, practice
 categories: ["PHP Basics"]
