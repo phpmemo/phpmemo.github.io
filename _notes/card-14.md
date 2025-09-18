@@ -8,6 +8,9 @@ categories: ["PHP Basics"]
 difficulty: 1 # Уровень сложности (опционально)
 icon: book # book, lightning-bolt, check-circle (соответствует типу)
 question: |
+  ```php
+  unset(mixed $var, mixed ...$vars): void
+  ```
   Расскажите об использовании языковой конструкции `unset()`.
 
 short_answer: |
@@ -16,7 +19,10 @@ short_answer: |
 ### 1. Основное назначение и синтаксис
 
 `unset()` — это языковая конструкция, которая уничтожает указанные переменные.
-
+```php
+unset(mixed $var, mixed ...$vars): void
+```
+Пример использования:
 ```php
 unset($variable);
 unset($var1, $var2, $var3); // Можно уничтожить несколько переменных сразу
