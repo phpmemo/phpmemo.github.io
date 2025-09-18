@@ -1,7 +1,7 @@
 ---
 layout: note
 title: "Фигурные скобки {} в PHP определяют блоки кода (для if, функций, классов)"
-card_id: 18
+card_id: 19
 date: 2025-09-17
 card_type: theory # theory, technique, practice
 categories: ["PHP Basics"]
