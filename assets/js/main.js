@@ -167,10 +167,10 @@ document.addEventListener('DOMContentLoaded', function() {
                     statusMatch = true;
                     break;
                 case 'new':
-                    statusMatch = !isCompleted && !isFlipped;
+                    statusMatch = !isCompleted;
                     break;
                 case 'in_progress':
-                    statusMatch = !isCompleted && isFlipped;
+                    statusMatch = isCompleted && isFlipped;
                     break;
                 case 'completed':
                     statusMatch = isCompleted;
