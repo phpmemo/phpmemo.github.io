@@ -103,6 +103,26 @@ body {
 .btn-secondary:hover {
     background: #e0e0e0;
 }
+/* Стили для кнопок */
+.btn-success {
+    background: #28a745;
+    color: white;
+    border: none;
+}
+
+.btn-success:hover {
+    background: #218838;
+}
+
+.btn-warning {
+    background: #ffc107;
+    color: #212529;
+    border: none;
+}
+
+.btn-warning:hover {
+    background: #e0a800;
+}
 /* Features */
 .features {
     padding: 4rem 0;
