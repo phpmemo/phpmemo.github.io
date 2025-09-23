@@ -1,6 +1,6 @@
 ---
 layout: note
-title: "and — это логический оператор "И" с низким приоритетом"
+title: "and — это логический оператор И с низким приоритетом"
 card_id: 37
 date: 2025-09-23
 card_type: theory # theory, technique, practice
