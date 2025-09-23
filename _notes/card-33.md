@@ -1,7 +1,7 @@
 ---
 layout: note
 title: "Двойные кавычки в PHP"
-card_id: 32
+card_id: 33
 date: 2025-09-23
 card_type: theory # theory, technique, practice
 categories: ["PHP Basics"]
