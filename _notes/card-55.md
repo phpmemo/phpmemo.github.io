@@ -1,6 +1,6 @@
 ---
 layout: note
-title: "Ключевое слово break в PHP прерывает выполнение циклов и предотвращает "проваливание" в switch"
+title: "Ключевое слово break в PHP прерывает выполнение циклов и предотвращает 'проваливание' в switch"
 card_id: 55
 date: 2025-10-07
 card_type: theory # theory, technique, practice
